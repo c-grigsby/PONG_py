@@ -6,13 +6,13 @@
 
 # PONG_py
 
-This desktop application replicates the legendary Pong arcade game. Interestingly, there was no code in the original PONG. In fact, it used no CPU or game code software at all. It was made using pure physical electronics by Atari in 1972 (See below)
+This desktop application replicates the legendary Pong arcade game. Interestingly, there was no code in the original PONG. In fact, it used no CPU or game code software at all. It was made using pure physical electronics by Atari in 1972 (see below)
 
 <img src="https://i.redd.it/kxks306cu9y81.jpg"
      alt="Original Pong Schematic Img"
      style="height: 240px" />
 
-... _Here we simplify things and write it in Python_
+... _Here is the game written in Python instead_
 
 </div>
 
