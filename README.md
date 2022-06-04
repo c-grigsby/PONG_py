@@ -10,10 +10,18 @@ This desktop application replicates the legendary Pong arcade game. Interestingl
 
 <img src="https://i.redd.it/kxks306cu9y81.jpg"
      alt="Original Pong Schematic Img"
-     style="height: 250px" />
+     style="height: 260px" />
 
-🧐 ... _Here is the game written in Python instead_
+... _Here is the game written in Python instead_
 
 </div>
+
+---
+
+## Project Details
+
+- Game play under construction
+- Developed with Python3 version 3.9.13
+- TKinter GUI Library
 
 ---
