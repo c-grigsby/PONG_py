@@ -1,7 +1,10 @@
-from turtle import Screen, Turtle
+# @packages
+from turtle import Screen
+import time
+# @scripts
 from paddle import Paddle
 from ball import Ball
-import time
+
 
 screen = Screen()
 screen.bgcolor("black")
@@ -25,9 +28,14 @@ while game_is_on:
     screen.update()
     ball.move()
 
-    # Detect wall collision
+    # Detect upper & lower wall collision
     if ball.ycor() > 280 or ball.ycor() < -280:
-        ball.bounce()
+        ball.bounce_y()
+
+    # Detect collision with paddles
+    if ball.distance(r_paddle) < 50 and ball.xcor() > 320 or ball.distance(l_paddle) < 50 and ball.xcor() < -320:
+        print("Made Contact")
+        ball.bounce_x()
 
 
 screen.exitonclick()
