@@ -2,7 +2,7 @@
 
 <img src="https://i.imgur.com/8l58nXx.png"
      alt="Original Pong Schematic Img"
-     style="height: 150px" />
+     style="height: 150px; margin-top: 10px" />
 
 # PONG_py
 
@@ -10,7 +10,7 @@ This desktop application replicates the legendary Pong arcade game. Interestingl
 
 <img src="https://i.redd.it/kxks306cu9y81.jpg"
      alt="Original Pong Schematic Img"
-     style="height: 260px" />
+     style="height: 275px" />
 
 ... _Here is the game written in Python instead_
 
