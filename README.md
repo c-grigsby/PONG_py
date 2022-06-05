@@ -20,8 +20,27 @@ This desktop application replicates the legendary Pong arcade game. Interestingl
 
 ## Project Details
 
-- Game play under construction
 - Developed with Python3 version 3.9.13
 - TKinter GUI Library
+- Turtle graphics for animations and gameplay
+- Object-oriented design (OOD)
+
+---
+
+## About PONG
+
+Pong was one of the first computer games that ever created. This simple "tennis like" game features two paddles and a ball, the goal being to defeat your opponent by being the first one to gain 10 points. A player gets a point once the opponent misses a ball.
+
+---
+
+## Getting Started
+
+- Ensure the Python3 core is installed on your machine (including Tkinter)
+- Run the main.py file via your IDE setup of choice
+- Or navigate to the 'src' directory in the terminal and execute:
+
+```
+ $ python3 main.py
+```
 
 ---
