@@ -1,6 +1,7 @@
 # @packages
 from turtle import Screen
 import time
+
 # @scripts
 from paddle import Paddle
 from ball import Ball
@@ -24,6 +25,8 @@ screen.onkey(r_paddle.go_down, "Down")
 screen.onkey(l_paddle.go_up, "w")
 screen.onkey(l_paddle.go_down, "s")
 
+time_function_done = time.time()
+
 game_is_on = True
 while game_is_on:
     time.sleep(ball.move_speed)
@@ -34,19 +37,22 @@ while game_is_on:
     if ball.ycor() > 280 or ball.ycor() < -280:
         ball.bounce_y()
 
-    # Detect collision with paddles
-    if ball.distance(r_paddle) < 50 and ball.xcor() > 320 or ball.distance(l_paddle) < 50 and ball.xcor() < -320:
-        ball.bounce_x()
-
     # Detect r_paddle miss
     if ball.xcor() > 380:
         ball.reset_position()
         scoreboard.l_point()
 
     # Detect l_paddle miss
-    if ball.xcor() < -380:
+    elif ball.xcor() < -380:
         ball.reset_position()
         scoreboard.r_point()
+
+    # Detect collision with paddles
+    elif ball.distance(r_paddle) < 50 and ball.xcor() > 320 and ball.xcor() < 370 or ball.distance(l_paddle) < 50 and ball.xcor() < -320 and ball.xcor() > -370:
+        # Ensure ball bounce only every .25 sec
+        if (time_function_done + .25) < time.time():
+            time_function_done = time.time()
+            ball.bounce_x()
 
 
 screen.exitonclick()
