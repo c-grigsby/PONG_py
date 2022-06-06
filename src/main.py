@@ -10,7 +10,7 @@ from scoreboard import Scoreboard
 
 screen = Screen()
 screen.bgcolor("black")
-screen.setup(width=800, height=600)
+screen.setup(width=900, height=600)
 screen.title("PONG")
 screen.tracer(0)
 
@@ -38,12 +38,12 @@ while game_is_on:
         ball.bounce_y()
 
     # Detect r_paddle miss
-    if ball.xcor() > 380:
+    if ball.xcor() > 450:
         ball.reset_position()
         scoreboard.l_point()
 
     # Detect l_paddle miss
-    elif ball.xcor() < -380:
+    elif ball.xcor() < -450:
         ball.reset_position()
         scoreboard.r_point()
 
@@ -53,6 +53,5 @@ while game_is_on:
         if (time_function_done + .25) < time.time():
             time_function_done = time.time()
             ball.bounce_x()
-
 
 screen.exitonclick()
