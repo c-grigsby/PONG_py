@@ -2,9 +2,14 @@
 
 <img src="https://i.imgur.com/8l58nXx.png"
      alt="Original Pong Schematic Img"
-     style="height: 150px; margin-top: 10px" />
+     style="height: 175px; margin-top: 10px" />
 
 # PONG_py
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/p?style=plastic)
+![PyPI - License](https://img.shields.io/pypi/l/Turtle?style=plastic)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/grigsby9/PONG_py?style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/grigsby9/PONG_py?style=plastic)
 
 This desktop application replicates the legendary Pong arcade game. Interestingly, there was no code in the original PONG. In fact, it used no CPU or game code software at all. It was made using pure physical electronics by Atari in 1972 (see below)
 
@@ -23,7 +28,14 @@ This desktop application replicates the legendary Pong arcade game. Interestingl
 - Developed with Python3 version 3.9.13
 - TKinter GUI Library
 - Turtle graphics for animations and gameplay
-- Object-oriented design (OOD)
+- Object-oriented design
+- _Gameplay under construction_
+
+<div align="right">
+
+![Lines of code](https://img.shields.io/tokei/lines/github/grigsby9/PONG_py?style=plastic)
+
+</div>
 
 ---
 
