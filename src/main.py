@@ -54,4 +54,11 @@ while game_is_on:
             time_function_done = time.time()
             ball.bounce_x()
 
+    # Detect collision with the back corner of paddle
+    elif ball.distance(r_paddle) < 50 and ball.xcor() > 355 or ball.distance(l_paddle) < 50 and ball.xcor() < -355:
+        # Ensure ball bounce only every .25 sec
+        if (time_function_done + .25) < time.time():
+            time_function_done = time.time()
+            ball.bounce_y()
+
 screen.exitonclick()
