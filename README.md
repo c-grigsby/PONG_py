@@ -29,9 +29,8 @@ This desktop application replicates the legendary Pong arcade game. Interestingl
 - TKinter GUI Library
 - Turtle graphics for animations and gameplay
 - Object-oriented design
-- _Gameplay under construction_
 
-<div align="right">
+<div align="center">
 
 ![Lines of code](https://img.shields.io/tokei/lines/github/grigsby9/PONG_py?style=plastic)
 
@@ -41,7 +40,9 @@ This desktop application replicates the legendary Pong arcade game. Interestingl
 
 ## About PONG
 
-Pong was one of the first computer games that ever created. This simple "tennis like" game features two paddles and a ball, the goal being to defeat your opponent by being the first one to gain 10 points. A player gets a point once the opponent misses a ball.
+Pong was one of the first computer games ever created. This simple "tennis like" game features two paddles and a ball, the goal being to defeat your opponent by being the first one to gain 10 points. A player gets a point once the opponent misses a ball.
+
+<img src="https://c.tenor.com/2gyJVMt_L6wAAAAC/pong-video-game.gif" height="175" alt="Pong Game" />
 
 ---
 
