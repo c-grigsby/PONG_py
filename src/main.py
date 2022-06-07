@@ -6,11 +6,14 @@ import time
 from paddle import Paddle
 from ball import Ball
 from scoreboard import Scoreboard
+from centerline import Centerline
 
+screen_height = 600
+screen_width = 900
 
 screen = Screen()
 screen.bgcolor("black")
-screen.setup(width=900, height=600)
+screen.setup(width=screen_width, height=screen_height)
 screen.title("PONG")
 screen.tracer(0)
 
@@ -18,6 +21,11 @@ r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
 ball = Ball()
 scoreboard = Scoreboard()
+
+centerline_y = (screen_height/2) - 25
+for i in range(10):
+    newDash = Centerline(centerline_y)
+    centerline_y -= screen_height / 10
 
 screen.listen()
 screen.onkey(r_paddle.go_up, "Up")
