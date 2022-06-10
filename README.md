@@ -15,7 +15,7 @@ This desktop application replicates the legendary Pong arcade game. Interestingl
 
 <img src="https://i.redd.it/kxks306cu9y81.jpg"
      alt="Original Pong Schematic Img"
-     style="height: 275px" />
+     style="height: 300px" />
 
 ... _Here is the game written in Python instead_
 
