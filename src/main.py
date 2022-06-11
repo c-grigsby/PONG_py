@@ -17,8 +17,8 @@ screen.setup(width=screen_width, height=screen_height)
 screen.title("PONG")
 screen.tracer(0)
 
-r_paddle = Paddle((350, 0))
-l_paddle = Paddle((-350, 0))
+r_paddle = Paddle((350, 0), screen_height/2, screen_height/2 * (-1))
+l_paddle = Paddle((-350, 0), screen_height/2, screen_height/2 * (-1))
 ball = Ball()
 scoreboard = Scoreboard()
 
