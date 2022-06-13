@@ -1,7 +1,6 @@
 # @packages
 from turtle import Screen
 import time
-
 # @scripts
 from paddle import Paddle
 from ball import Ball
