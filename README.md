@@ -10,6 +10,7 @@
 ![PyPI - License](https://img.shields.io/pypi/l/Turtle?style=plastic)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/grigsby9/PONG_py?style=plastic)
 ![GitHub repo size](https://img.shields.io/github/repo-size/grigsby9/PONG_py?style=plastic)
+![Lines of code](https://img.shields.io/tokei/lines/github/grigsby9/PONG_py?style=plastic)
 
 This desktop application replicates the legendary Pong arcade game. Interestingly, there was no code in the original PONG. In fact, it used no CPU or game code software at all. It was made using pure physical electronics by Atari in 1972 (see below)
 
@@ -30,30 +31,20 @@ This desktop application replicates the legendary Pong arcade game. Interestingl
 - Turtle graphics for animations and gameplay
 - Object-oriented design
 
-<div align="center">
-
-![Lines of code](https://img.shields.io/tokei/lines/github/grigsby9/PONG_py?style=plastic)
-
-</div>
-
----
-
 ## About PONG
 
 Pong was one of the first computer games ever created. This simple "tennis like" game features two paddles and a ball, the goal being to defeat your opponent by being the first one to gain 10 points. A player gets a point once the opponent misses a ball.
 
 <img src="https://c.tenor.com/2gyJVMt_L6wAAAAC/pong-video-game.gif" height="175" alt="Pong Game" />
 
----
+## Installation
 
-## Getting Started
+Ensure the Python3 core is installed on your machine (including Tkinter)
 
-- Ensure the Python3 core is installed on your machine (including Tkinter)
-- Run the main.py file via your IDE setup of choice
-- Or navigate to the 'src' directory in the terminal and execute:
+## Running the App
+
+Run the main.py file via IDE setup of choice or navigate to the 'src' directory in the terminal and execute:
 
 ```
  $ python3 main.py
 ```
-
----
